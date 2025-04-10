@@ -885,6 +885,7 @@ footer {
   }
   .top {
     margin: 10px 0 0px;
+    overflow: hidden;
   }
   .top__title {
     margin-top: 0px;
@@ -996,5 +997,13 @@ footer {
   .footer__top__right__text {
     width: 100%;
     padding: 10px 0;
+  }
+  .header__login {
+    gap: 0px;
+  }
+  .header__login div:nth-child(1) {
+    position: absolute;
+    left: 70px;
+    width: 50px;
   }
 }/*# sourceMappingURL=styles.css.map */
